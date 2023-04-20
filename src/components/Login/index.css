@@ -1,0 +1,128 @@
+.Login_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: black;
+}
+
+.login_form_container {
+  width: 50%;
+  /* height: 50vh; */
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #2c364c;
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .login_form_container {
+    width: 100%;
+  }
+}
+
+/* logo container */
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.website_logo {
+  width: 175px;
+  height: 60px;
+}
+
+@media (max-width: 767px) {
+  .website_logo {
+    width: 120px;
+    height: 30px;
+  }
+}
+
+/* inputs  */
+
+.inputs_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.form_labels {
+  color: rgb(199, 191, 191);
+  font-size: 14px;
+  font-weight: 700;
+  align-self: flex-start;
+  margin-bottom: 4px;
+}
+
+.form_inputs {
+  width: 100%;
+  padding: 15px;
+  color: rgb(241, 235, 235);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .form_labels {
+    font-size: 12px;
+  }
+}
+
+/* login button */
+
+.login_button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login_button {
+  background-color: rgb(61, 157, 236);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .login_button {
+    font-size: 13px;
+  }
+  .login_button {
+    width: 90%;
+  }
+}
+
+.error_msg {
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
